@@ -9,9 +9,9 @@ typedef struct _node
 
 int main(void)
 {
-    Node *head = NULL;
-    Node *tail = NULL;
-    Node *cur = NULL;
+    Node *head = NULL; //리스트의 머리를 가리키는 포안터 변수
+    Node *tail = NULL; //리스트의 꼬라를 가리키는 포인터 변수
+    Node *cur = NULL;  //저장된 데이터의 조회에 사용되는 포인터 변수
 
     Node *newNode =NULL;
     int readData;
